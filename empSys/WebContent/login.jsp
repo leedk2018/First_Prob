@@ -20,6 +20,9 @@
 			${requestScope.error_msg }
 		</span>
 		<br>
+		验证码:<input type="text" name="validate">
+		<img alt="验证码" id="validate" src="${pageContext.request.contextPath }/ValidateServlet">
+		<br>
 		<input type="reset" value="重置">
 		<input type="submit" value="登录">
 	</form>
